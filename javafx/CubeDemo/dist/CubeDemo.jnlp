@@ -13,9 +13,9 @@
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
     <jar href="CubeDemo.jar" size="29824" download="eager" />
   </resources>
-  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="CubeDemo" >
+  <applet-desc  width="400" height="400" main-class="com.javafx.main.NoJavaFXFallback"  name="CubeDemo" >
     <param name="requiredFXVersion" value="2.2+"/>
   </applet-desc>
-  <jfx:javafx-desc  width="800" height="600" main-class="pkg3dblocks.Main"  name="CubeDemo" />
+  <jfx:javafx-desc  width="400" height="400" main-class="pkg3dblocks.Main"  name="CubeDemo" />
   <update check="always"/>
 </jnlp>
