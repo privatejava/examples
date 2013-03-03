@@ -1,0 +1,72 @@
+/*
+ * Narayan G. Maharjan
+ * Stylesheet file.
+*/
+
+.mainFxmlClass {
+	-fx-background-color:linear-gradient(to bottom,black,derive(black,30%));
+}
+.table-view{
+	-fx-base:white;
+
+}
+
+.table-column{
+	-fx-base:green;
+}
+/*BLACK DIAMOND STYLE*/
+.dia-pagination{
+	-fx-base:black;	
+}
+.dia-pagination .toggle-button {
+	-fx-shape:"m74.63,72.21494l14.50002,-14.49994l14.49998,14.49994l-14.49998,14.50002l-14.50002,-14.50002z";
+			 
+	-fx-background-radius:3px;
+}
+.dia-pagination .button{
+	-fx-padding: 8 10 8 10px;
+}
+.dia-pagination .label {
+	-fx-text-fill:white;
+}
+
+
+/* BLACK CIRCLE STYLE */
+.circle-pagination{
+	-fx-base:black;	
+}
+.circle-pagination .toggle-button , .circle-pagination.button{
+	-fx-background-radius:15px;
+	-fx-padding: 0px;
+}
+.circle-pagination .button{
+	-fx-padding: 5 15 5 16px;
+}
+.circle-pagination .label {
+	-fx-text-fill:white;
+}
+
+
+
+/*GRID STYLE*/
+.grid-pagination{
+	-fx-base:black;	
+}
+.grid-pagination .toggle-button{
+	-fx-shape:"m61.73247,191.50499l-6.00997,5.7599m69.1152,-5.50928l5.75948,5.50928m-5.75948,-68.6145l5.75948,-6.01002m-68.86471,5.75976l-5.75947,-5.50913m5.75947,5.38381l63.10523,0l0,63.10521l-63.10523,0l0,-63.10521zm-5.88478,-5.88481l74.87482,0l0,74.87489l-74.87482,0l0,-74.87489z";
+	-fx-background-insets: 0, -0.5 6.5 -0.5 6.5,0 7 0 7;
+	-fx-padding:0px;
+	
+	-fx-background-radius:0px;
+}
+.grid-pagination .toggle-button:selected{
+	-fx-base:white;
+}
+.grid-pagination .control-box{
+	-fx-background-color:linear-gradient(to bottom,black,transparent);;
+	-fx-padding:-11 0 0 0px;		
+}
+
+.grid-pagination .label {
+	-fx-text-fill:white;
+}

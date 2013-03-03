@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml" fx:controller="jdk8play.controller.MainUIController">
+  <children>
+    <TableView fx:id="table" prefHeight="282.0" prefWidth="572.0" tableMenuButtonVisible="true" AnchorPane.bottomAnchor="81.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="37.0">
+      <columns>
+        <TableColumn minWidth="100.0" prefWidth="100.0" text="Sn." fx:id="snCol" />
+        <TableColumn minWidth="100.0" prefWidth="100.0" text="Product Code" fx:id="productCol" />
+        <TableColumn prefWidth="75.0" text="Qty" fx:id="qtyCol" />
+        <TableColumn minWidth="200.0" prefWidth="200.0" text="Date" fx:id="dateCol" />
+      </columns>
+      <effect>
+        <DropShadow color="GREY" />
+      </effect>
+    </TableView>
+    <VBox maxWidth="80.0" minWidth="50.0" prefHeight="65.0" prefWidth="79.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0">
+      <children>
+        <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" text="Limit" textFill="#dfdfdf" />
+        <TextField alignment="CENTER_LEFT" maxWidth="50.0" minWidth="50.0" onAction="#changeLimit" prefWidth="50.0" VBox.vgrow="ALWAYS" />
+      </children>
+      <padding>
+        <Insets left="10.0" right="10.0" top="5.0" />
+      </padding>
+    </VBox>
+    <StackPane fx:id="pagePanel" prefHeight="65.0" prefWidth="521.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="79.0">
+      <children>
+        <Pagination fx:id="pagination" currentPageIndex="5" styleClass="mypage, bullet">
+          <effect>
+            <DropShadow color="#dfdfdf5d" height="16.96825396825397" radius="7.984126984126984" width="16.96825396825397" />
+          </effect>
+        </Pagination>
+      </children>
+    </StackPane>
+    <HBox alignment="CENTER" prefHeight="37.0" prefWidth="572.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="0.0">
+      <children>
+        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="ABC Co. Ltd">
+          <font>
+            <Font name="System Bold" size="20.0" />
+          </font>
+        </Text>
+      </children>
+    </HBox>
+  </children>
+  <stylesheets>
+    <URL value="@../css/ui.css" />
+  </stylesheets>
+</AnchorPane>
