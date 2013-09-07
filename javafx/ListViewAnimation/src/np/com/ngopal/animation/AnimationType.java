@@ -6,7 +6,7 @@ package np.com.ngopal.animation;
 
 /**
  *
- * @author Narayan G. Maharjan<narayan@anahata-it.com.au>
+ * @author Narayan G. Maharjan<me@ngopal.com.np>
  * Created on Sep 6, 2013, 7:42:12 PM
  */
 public enum AnimationType {

@@ -14,7 +14,7 @@ import np.com.ngopal.animation.AnimationType;
 
 /**
  *
- * @author Narayan G. Maharjan <narayan@anahata-it.com.au>
+ * @author Narayan G. Maharjan <me@ngopal.com.np>
  * Created on Sep 6, 2013, 9:45:01 PM
  */
 public abstract class AbstractAnimatedListCell<T> extends ListCell<T> {

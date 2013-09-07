@@ -22,7 +22,7 @@ import javafx.util.Duration;
 
 /**
  *
- * @author Narayan G. Maharjan<narayan@anahata-it.com.au>
+ * @author Narayan G. Maharjan<me@ngopal.com.np>
  * Created on Sep 6, 2013, 10:11:08 PM
  */
 public class AnimationPack {
